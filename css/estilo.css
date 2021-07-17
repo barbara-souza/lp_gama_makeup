@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lucida Bright;
+    line-height: 25px;
+    background-size: cover;
+    background-color: pink;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    padding-top: 0px;
+   
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 100px 0px 100px;
+}
+
+.blackfriday-text {
+    width: 320px;
+    text-align: center;
+}
+
+.blackfriday-text > p {
+    padding-top: 10px;
+    font-size: 18px;
+    color: #FF69B4;
+}
+
+.blackfriday-form {
+    min-width: 320px;
+}
+
+form#formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.label {
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+form#formulario > h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.input {
+    border: 1px solid #dfe1e500;
+    border-radius: 6px;
+    outline-width: 0;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.input:hover {
+    box-shadow: 0 1px 6px #20212447;
+}
+
+input#button {
+    margin-top: 30px;
+    border-radius: 6px;
+    border: 0;
+    height: 50px;
+    background-color: #FF69B4;
+    color: #fff;
+    font-size: 20px;
+}
+input#button:hover {
+    box-shadow: 0 1px 6px #20212447;
+    cursor: pointer;
+}
+
+.msg-cadastro {
+    padding-top: 35px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    display: none;
+}
